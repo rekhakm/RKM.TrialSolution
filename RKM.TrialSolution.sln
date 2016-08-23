@@ -3,8 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8208213A-AB4A-4711-955B-A0A9B591CF4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{E965C21E-BA9E-413E-8861-513CBD921CF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TEST", "TEST", "{1CBBF53B-1932-4EE4-9143-D97AFBF5931F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RKM.WebApp", "RKM.WebApp\RKM.WebApp.xproj", "{E889BB04-F978-4A2D-9C14-94E9DCC2C6E7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E889BB04-F978-4A2D-9C14-94E9DCC2C6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E889BB04-F978-4A2D-9C14-94E9DCC2C6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E889BB04-F978-4A2D-9C14-94E9DCC2C6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E889BB04-F978-4A2D-9C14-94E9DCC2C6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E889BB04-F978-4A2D-9C14-94E9DCC2C6E7} = {E965C21E-BA9E-413E-8861-513CBD921CF7}
 	EndGlobalSection
 EndGlobal
